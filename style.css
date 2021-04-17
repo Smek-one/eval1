@@ -14,9 +14,7 @@ header {
 }
 
 h1 {
-    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#045FB4));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #045FB4;
 }
 
 .logo {
@@ -40,14 +38,15 @@ a {
 .menu {
     font-size: 2vw;
     width: 100%;
-    padding: 15px 0 0 0;
+    padding: 5px 0 10px 0;
     text-shadow: 1px 1px #000;
 }
 
 
 /*MAIN INDEX.HTML*/
 
-.mainIndex {
+
+/*.mainIndex {
     display: grid;
     grid-template-columns: auto 1fr auto;
     height: auto;
@@ -55,19 +54,25 @@ a {
     padding: 15px;
     justify-items: center;
 }
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: 10fr 50fr 10fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 2vh;
+    gap: 0;
+}
 
 #pic1 {
-    text-align: center;
-    width: 15%;
+    width: 50%;
     height: auto;
-    float: right;
 }
 
 #pic2 {
-    text-align: center;
-    width: 15%;
+    width: 50%;
     height: auto;
-    float: left;
+    margin-left: auto;
 }
 
 thead,
@@ -82,20 +87,11 @@ table {
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 15px;
 }
 
 td {
     text-align: center;
-}
-
-
-/*FOOTER*/
-
-footer {
-    background: rgba(167, 68, 68, 1);
-    padding: 1vw;
-    text-align: center;
-    color: #ddd;
 }
 
 
@@ -113,17 +109,6 @@ footer {
     h1 {
         font-size: 1.5rem;
         padding-top: 5px;
-    }
-    .mainIndex {
-        display: inline-grid;
-        justify-items: center;
-        grid-template-columns: auto 20fr auto;
-    }
-    thead,
-    th,
-    h4 {
-        color: rgba(167, 68, 68, .8);
-        padding: 0;
     }
 }
 
@@ -210,4 +195,14 @@ hr {
     .menu {
         text-shadow: none;
     }
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: rgba(167, 68, 68, 1);
+    padding: 1vw;
+    text-align: center;
+    color: #ddd;
 }
