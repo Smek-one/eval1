@@ -15,22 +15,40 @@
 </head>
 
 <body>
-    <!-- HEADER & MENU -->
+    <!-- HEADER -->
     <header>
-
-        <!-- Brand -->
-        <a class="brand" href="#">
-            <img class="logo" src="images/logo-daniel-bottero-taekwondo-club-grey.jpg" alt="Taekwondo Daniel Bottero">
-        </a>
-        <h1>Taekwondo club Daniel Bottero</h1>
         <!-- Menu -->
-        <div class="menu">
-            <ul class="menu-list">
-                <li class="item"><a class="link" href="index.html">Accueil</a></li>
-                <li class="item"><a class="link" href="#">Le club</a></li>
-                <li class="item"><a class="link" href="events.html">Évènements</a></li>
-                <li class="item"><a class="link" href="#">Contact</a></li>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Évènements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le club</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Victoires</a></li>
+                                <li><a class="dropdown-item" href="#">Les entraineurs</a></li>
+                                <li><a class="dropdown-item" href="#">Licenciés</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="container-fluid mainEvents">
@@ -87,10 +105,12 @@
                 </div>
             </div>
         </section>
+    </main>
+    <section>
+        <div class="divider">
+            <hr>Partenaires
+        </div>
         <section class="partner">
-            <div class="divider">
-                <hr>Partenaires
-            </div>
             <div class="partnerPics">
                 <img src="images/Logo-Aix-les-Bains-Partenaire-couleurs-A-TRANSMETTRE.jpg" alt="">
                 <img src="images/Logo-M-ra-2016-2017.jpg" alt="">
@@ -99,18 +119,15 @@
             </div>
         </section>
 
-    </main>
+        <footer>
+            <p>Association à but non lucratif régie par la loi du 1er Juillet 1901 | Agrément Jeunesse et Sports n° 73S6205</p>
+            <p>2021 Tous droits réservés © | Taekwondo Club Daniel Bottero ®</p>
+        </footer>
 
-
-    <footer>
-        <p>Association à but non lucratif régie par la loi du 1er Juillet 1901 | Agrément Jeunesse et Sports n° 73S6205</p>
-        <p>2021 Tous droits réservés © | Taekwondo Club Daniel Bottero ®</p>
-    </footer>
-
-    <!--BOOTSTRAP JS-->
-    <script src="bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
-    <!--JQUERY-->
-    <script src="bootstrap-5.0.0-beta3-dist/js/jQuery.js"></script>
+        <!--BOOTSTRAP JS-->
+        <script src="bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+        <!--JQUERY-->
+        <script src="bootstrap-5.0.0-beta3-dist/js/jQuery.js"></script>
 </body>
 
 </html>
