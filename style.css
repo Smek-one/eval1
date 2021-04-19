@@ -206,6 +206,9 @@ hr {
 /*MEDIAQUERIES INDEX.HTML*/
 
 @media screen and (max-width: 1280px) {
+    body {
+        margin: auto
+    }
     .logo {
         height: 5vh;
         width: auto;
@@ -219,7 +222,13 @@ hr {
         margin-right: auto;
         padding: 0;
     }
-    .contact>.row {
+    .row {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe {
+        width: 100%;
         padding: 15px;
     }
     .first-card-text {
@@ -235,6 +244,8 @@ hr {
         color: rgba(167, 68, 68, .8);
     }
     table {
+        width: 80vw;
+        font-size: 0.5em;
         box-shadow: none;
         margin-left: auto;
         margin-right: auto;
