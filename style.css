@@ -222,6 +222,12 @@ hr {
     .contact>.row {
         padding: 15px;
     }
+    .card-text {
+        margin-bottom: -15vh;
+    }
+    .first-card {
+        margin-bottom: -10vh;
+    }
     h1 {
         font-size: 1.5rem;
         padding-top: 5px;
