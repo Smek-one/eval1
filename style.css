@@ -222,7 +222,7 @@ hr {
     .contact>.row {
         padding: 15px;
     }
-    .card-text {
+    .card-text>.first-card {
         margin-bottom: -15vh;
     }
     h1 {
