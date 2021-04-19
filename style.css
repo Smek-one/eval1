@@ -78,6 +78,11 @@ h1 {
     grid-column-end: 6;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
 span {
     text-decoration: underline;
     color: #045FB4;
