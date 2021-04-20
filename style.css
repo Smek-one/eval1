@@ -46,10 +46,6 @@ h1 {
     text-shadow: 1px 1px #fff;
 }
 
-.navbar-toggler {
-    background: #ddd;
-}
-
 
 /*MAIN INDEX.HTML*/
 
@@ -86,7 +82,7 @@ h1 {
 
 span {
     text-decoration: underline;
-    color: rgba(167, 68, 68, 1);
+    color: #fff
 }
 
 .contact {
@@ -94,12 +90,20 @@ span {
     justify-content: space-around;
 }
 
-.card {
-    border: 1px solid #000;
-}
-
 .asterisk {
     font-weight: lighter;
+}
+
+svg {
+    padding: 15px;
+}
+
+iframe {
+    padding: 15px;
+}
+
+.place {
+    font-style: oblique;
 }
 
 thead,
@@ -139,35 +143,17 @@ h3 {
     text-shadow: 1px 2px rgba(167, 68, 68, 1);
 }
 
-.card-group {
-    width: 100%;
+.card {
+    max-width: 18em;
 }
 
-.mainEvents {
-    padding: 15px;
+.card-group {
+    width: auto;
+    height: auto;
 }
 
 .card-title {
-    color: rgba(167, 68, 68, .8);
     text-decoration: underline;
-    text-shadow: 1px 1px rgba(0, 0, 0, .5);
-}
-
-.card {
-    height: 60vh;
-    padding: 5px;
-}
-
-svg {
-    padding: 15px;
-}
-
-iframe {
-    padding: 15px;
-}
-
-.place {
-    font-style: oblique;
 }
 
 .partner {
@@ -225,18 +211,11 @@ hr {
         margin-left: auto;
         margin-right: auto;
         padding: 0;
-    }
-    .row {
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
+        background: #ddd;
     }
     iframe {
         width: 100%;
         padding: 15px;
-    }
-    .first-card-text {
-        margin-bottom: -15vh;
     }
     h1 {
         font-size: 1.5rem;
@@ -267,13 +246,6 @@ hr {
         padding: 10px;
         margin-top: 15px;
     }
-    .card-text {
-        height: 20vh;
-        overflow: scroll;
-    }
-    .card {
-        height: 70vh;
-    }
     .partner img {
         width: 10vw;
         height: auto;
@@ -281,6 +253,15 @@ hr {
     }
     .menu {
         text-shadow: none;
+    }
+    .card {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-info {
+        margin-bottom: 5px;
     }
 }
 
