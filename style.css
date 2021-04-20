@@ -85,6 +85,11 @@ span {
     color: #fff
 }
 
+b {
+    color: #045FB4;
+    text-decoration: underline;
+}
+
 .contact {
     display: flex;
     justify-content: space-around;
@@ -237,7 +242,7 @@ hr {
     }
     table {
         width: 80vw;
-        font-size: 0.5em;
+        font-size: 0.9em;
         box-shadow: none;
         margin-left: auto;
         margin-right: auto;
