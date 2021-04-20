@@ -129,7 +129,7 @@ td {
 /*EVENTS.HTML*/
 
 h3 {
-    width: 50vw;
+    width: 20vw;
     color: #045FB4;
     border: 1px solid #000;
     margin: auto;
@@ -140,11 +140,18 @@ h3 {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     margin-bottom: 15px;
-    text-shadow: 1px 2px rgba(167, 68, 68, 1);
+    margin-top: 15px;
+    text-shadow: 1px 2px #fff;
+}
+
+.slogan {
+    width: 26vw;
 }
 
 .card {
     max-width: 18em;
+    padding: 5px;
+    border: none;
 }
 
 .card-group {
@@ -262,6 +269,9 @@ hr {
     }
     .btn-info {
         margin-bottom: 5px;
+    }
+    .slogan {
+        width: 92vw;
     }
 }
 
