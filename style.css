@@ -80,9 +80,18 @@ h1 {
     margin-bottom: 15px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
 span {
     text-decoration: underline;
-    color: #fff
+    color: #045FB4;
 }
 
 b {
@@ -155,17 +164,9 @@ h3 {
 
 .card {
     max-width: 18em;
-    padding: 5px;
-    border: none;
-}
-
-.card-group {
-    width: auto;
-    height: auto;
-}
-
-.card-title {
-    text-decoration: underline;
+    padding: 15px;
+    border: 1px solid #000;
+    margin: 10px;
 }
 
 .partner {
