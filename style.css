@@ -110,11 +110,10 @@
     #gmap_canvas {
         overflow: hidden;
         background: none;
-        height: auto;
         padding-bottom: 0;
         margin: 0;
-        width: 220px;
         height: auto;
+        width: 10vw;
     }
     
     .mapouter {
