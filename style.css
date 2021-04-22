@@ -103,12 +103,19 @@
         margin-bottom: 15px;
     }
     
+    .bi-geo-alt {
+        padding-bottom: 15px;
+    }
+    
     #gmap_canvas {
         overflow: hidden;
         background: none;
         width: 150px;
         height: auto;
-        padding-bottom: 15px;
+        padding-bottom: 0;
+        margin: 0;
+        width: 220px;
+        height: auto;
     }
     
     .mapouter {
