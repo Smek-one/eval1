@@ -118,7 +118,15 @@ b {
     height: auto;
 }
 
+<<<<<<< HEAD
 .row {}
+=======
+.contact {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around ;
+}
+>>>>>>> 8918655fbf24483efd6a1df72178cc704ffd02bf
 
 .place {
     font-style: oblique;
