@@ -95,11 +95,11 @@ b {
 }
 
 .bi-envelope-open {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .bi-geo-alt {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 #gmap_canvas {
@@ -120,7 +120,7 @@ b {
 
 .contact {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: center;
 }
 
